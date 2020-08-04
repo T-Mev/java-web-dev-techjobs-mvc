@@ -12,6 +12,23 @@
 
     <!-- TODO #1 - Use a loop to display job results in a table. -->
 
+    <!--    Table style #1 -->
+    <table th:replace="fragments :: jobs-table"></table>
+
+    <!--    Table style #2 -->
+    <!--    <table>-->
+    <!--        <tr th:each="job : ${jobs}">-->
+    <!--            <th>-->
+    <!--                <p th:text="${'ID: ' + job.id}" class="table-p"></p>-->
+    <!--                <p th:text="${'Name: ' + job.name}" class="table-p"></p>-->
+    <!--                <p th:text="${'Employer: ' + job.employer}" class="table-p"></p>-->
+    <!--                <p th:text="${'Location: ' + job.location}" class="table-p"></p>-->
+    <!--                <p th:text="${'Position Type: ' + job.positionType}" class="table-p"></p>-->
+    <!--                <p th:text="${'Skill: ' + job.coreCompetency}" class="table-p"></p>-->
+    <!--            </th>-->
+    <!--        </tr>-->
+    <!--    </table>-->
+
 </div>
 
 </body>
